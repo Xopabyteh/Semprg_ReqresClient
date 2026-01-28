@@ -26,6 +26,4 @@ Interactive menu-driven application with:
 - User CRUD operations
 - Resource browsing
 
----
-
-*Generated with AI • Powered by Kiota*
+<img width="913" height="1036" alt="image" src="https://github.com/user-attachments/assets/b444894f-a26d-49f7-a4f9-26aae5d6da85" />
