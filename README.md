@@ -15,7 +15,7 @@ A .NET 10 console application for interacting with the [Reqres API](https://reqr
    ```
 
 2. Run:
-   ```bash
+   ```powershell
    dotnet run
    ```
 
@@ -25,7 +25,3 @@ Interactive menu-driven application with:
 - User authentication (login/register)
 - User CRUD operations
 - Resource browsing
-
----
-
-*Generated with AI • Powered by Kiota*

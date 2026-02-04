@@ -15,18 +15,18 @@ var authProvider = new ApiKeyAuthenticationProvider(apiKey);
 var adapter = new HttpClientRequestAdapter(authProvider);
 var client = new ApiClient(adapter);
 
-var app = new ReqresClientApp(client);
+var app = new KiotaReqresClientApp(client);
 await app.RunAsync();
 
 /// <summary>
 /// Main application orchestrator for Reqres API operations
 /// </summary>
-class ReqresClientApp
+class KiotaReqresClientApp
 {
     private readonly ApiClient _client;
     private string? _authToken;
 
-    public ReqresClientApp(ApiClient client)
+    public KiotaReqresClientApp(ApiClient client)
     {
         _client = client ?? throw new ArgumentNullException(nameof(client));
     }
