@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="ReqresClientKiota/ReqresClientKiota.csproj" />
   <Project Path="ReqresClientRefit/ReqresClientRefit.csproj" Id="6db377fa-89a5-4861-9636-6fe17bcdc68b" />
+  <Project Path="ReqresClientRefitAndRefitter/ReqresClientRefitAndRefitter.csproj" Id="ef0add50-4c21-4a15-a06b-a2416c3d6fff" />
 </Solution>
